@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+:root{
+    --bg-color:#D0CCD0;
+    --Black:#000000;
+    --secondary:#2A2A2A;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100dvh;
+    background-color: var(--bg-color);
+}
+
+h1{
+    font-family: "Kalam", cursive;
+}
+h2{
+    font-family: "Klee One", cursive;
+}
+p{
+    font-family: "Lekton", monospace;
+}

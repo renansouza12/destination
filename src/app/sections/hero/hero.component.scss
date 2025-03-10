@@ -1,0 +1,17 @@
+:host {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/eaadeb219572709.67b48669abbab.jpg") center/cover;
+    object-fit: cover;
+    padding: 3rem 1rem 0;
+
+    p {
+        width: 20%;
+        font-size: 13px;
+        border-top: 1px solid var(--Black);
+        padding-top: 10px;
+    }
+}

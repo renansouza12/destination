@@ -1,0 +1,11 @@
+@media (max-width:425px) {
+    :host{
+        h1{
+            font-size: 35px;
+        }
+        p{
+            width: 70%;
+            margin-top: 10rem;
+        }
+    }
+}

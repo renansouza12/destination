@@ -1,0 +1,19 @@
+@media (max-width:720px) {
+    :host{
+        padding-left: 10px;
+       p{
+        width: 40%;
+        font-size: 12px;
+       }
+    }
+}
+@media (max-width:420px) {
+    :host{
+        justify-content: center;
+        padding-left: 0px;
+       p{
+        width: 50%;
+        font-size: 12px;
+       }
+    }
+}

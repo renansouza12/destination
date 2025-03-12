@@ -1,0 +1,31 @@
+:host{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .image_container,.france_text{
+        width: 50%;
+        height: 100%;
+    }
+    .image_container{
+        background: url("https://cdn.cosmos.so/12e14a74-2165-4af3-89e9-44cff93d87ed?format=jpeg") center/cover;
+    }
+    .france_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 1rem;
+
+        h2{
+            font-size: 130px;
+            font-weight: 300;
+        }
+
+        p{
+            font-size: 12px;
+            width: 50%;
+            text-align: start;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
     --bg-color:#D0CCD0;
@@ -26,7 +27,8 @@ h1{
     font-weight: 300;
 }
 h2{
-    font-family: "Klee One", cursive;
+    // font-family: "Klee One", cursive;
+    font-family: "Advent Pro", sans-serif;
 }
 p{
     font-family: "Lekton", monospace;

@@ -1,19 +1,21 @@
 @media (max-width:720px) {
-    :host{
-        .france_text{
-            h2{
+    :host {
+        .france_text {
+            h2 {
                 font-size: 70px;
             }
         }
     }
 }
+
 @media (max-width:425px) {
-    :host{
-        .france_text{
-            h2{
+    :host {
+        .france_text {
+            h2 {
                 font-size: 50px;
             }
-            p{
+
+            p {
                 width: 90%;
             }
         }
@@ -21,11 +23,12 @@
 }
 
 @media (max-width:320px) {
-    :host{
-       flex-direction: column;
+    :host {
+        flex-direction: column;
 
-       .image_container,.france_text{
-        width: 100%;
-       }
+        .image_container,
+        .france_text {
+            width: 100%;
+        }
     }
 }

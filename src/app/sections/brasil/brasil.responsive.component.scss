@@ -1,23 +1,22 @@
 @media (max-width:720px) {
     :host {
-        .japan_text {
+        .brasil_text {
             h2 {
                 font-size: 70px;
             }
-
+            p{  
+                width: 90%;
+                font-size: 12px;
+            }
         }
     }
 }
 
 @media (max-width:425px) {
     :host {
-        .japan_text {
+        .brasil_text {
             h2 {
-                font-size: 60px;
-            }
-
-            p {
-                width: 70%;
+                font-size: 50px;
             }
         }
     }
@@ -28,13 +27,8 @@
         flex-direction: column;
 
         .image_container,
-        .japan_text {
+        .brasil_text {
             width: 100%;
-
-            p {
-                font-size: 12px;
-            }
         }
-
     }
 }

@@ -1,0 +1,37 @@
+@media (max-width:720px) {
+    :host{
+        .japan_text{
+            h2{
+                font-size: 70px;
+            }
+            
+        }
+    }
+}
+@media (max-width:425px) {
+    :host{
+        .japan_text{
+            h2{
+                font-size: 60px;
+            }
+            p{
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media (max-width:320px) {
+    :host{
+       flex-direction: column;
+
+       .image_container,.japan_text{
+        width: 100%;
+        
+        p{
+            font-size: 12px;
+        }
+    }
+       
+    }
+}

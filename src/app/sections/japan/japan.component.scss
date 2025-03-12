@@ -1,0 +1,31 @@
+:host{
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    flex-direction: row-reverse;
+    .image_container,.japan_text{
+        width: 50%;
+        height: 100%;
+    }
+    .image_container{
+        background: url("https://cdn.cosmos.so/d9575ce0-7a20-45a9-bb74-7ef9a3d74a2d?format=jpeg")center/cover;
+    }
+
+    .japan_text{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h2{
+            font-family: "Klee One", cursive;
+            font-size: 130px;
+            font-weight: 300;
+        }
+        p{
+            width: 50% ;
+            text-align: justify;
+            font-size: 14px;
+        }
+    }    
+}

@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-japan',
   imports: [],
   templateUrl: './japan.component.html',
-  styleUrl: './japan.component.scss'
+  styleUrls: ['./japan.component.scss','./japan.responsive.component.scss']
+
 })
 export class JapanComponent {
 

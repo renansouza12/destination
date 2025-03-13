@@ -4,6 +4,7 @@ import { IntroComponent } from '../../sections/intro/intro.component';
 import { FranceComponent } from '../../sections/france/france.component';
 import { JapanComponent } from '../../sections/japan/japan.component';
 import { BrasilComponent } from '../../sections/brasil/brasil.component';
+import { ChinaComponent } from '../../sections/china/china.component';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import { BrasilComponent } from '../../sections/brasil/brasil.component';
             IntroComponent,
             FranceComponent,
             JapanComponent,
-            BrasilComponent
+            BrasilComponent,
+            ChinaComponent
           ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

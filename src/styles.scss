@@ -7,6 +7,7 @@
     --bg-color: #D0CCD0;
     --Black: #000000;
     --secondary: #2A2A2A;
+    --White:#e1d2d2;
 }
 
 * {
@@ -38,4 +39,8 @@ h3 {
 
 p {
     font-family: "Lekton", monospace;
+}
+a{
+    text-decoration: wavy;
+    
 }

@@ -9,7 +9,7 @@
         height: 100%;
     }
     .image_container{
-        background: url("https://cdn.cosmos.so/12e14a74-2165-4af3-89e9-44cff93d87ed?format=jpeg") center/cover;
+        background: url("../../../../public/images/home-images/french-main-image.jpg")center/cover;
     }
     .france_text{
         display: flex;
@@ -25,7 +25,7 @@
         p{
             font-size: 12px;
             width: 50%;
-            text-align: center;
+            text-align: start;
         }
     }
 }

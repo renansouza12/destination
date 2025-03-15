@@ -1,0 +1,43 @@
+@media (max-width:720px){
+    :host{
+
+        h1{
+            top: 0%;
+        }
+        .france_content{
+            gap: 10px;
+
+            video{
+                height: 300px;
+                width: 200px;
+            }
+        }
+
+        p{
+            width: 50%;
+            right: 20%;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width:425px){
+    :host{
+
+        h1{
+            top: 0%;
+        }
+        .france_content{
+            gap: 10px;
+
+            video{
+                height: 300px;
+                width: 200px;
+            }
+        }
+
+        p{
+            width: 90%;
+        }
+    }
+}

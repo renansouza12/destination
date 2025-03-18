@@ -1,0 +1,71 @@
+:host {
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 1rem;
+
+    .japan_content {
+        width: 30%;
+
+        p {
+            font-size: 13px;
+            width: 80%;
+            text-align: justify;
+            padding-left: 15px;
+        }
+
+        .japan_video {
+            height: 400px;
+            width: 250px;
+            margin-top: 1rem;
+            video {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .japan_title {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h3 {
+            font-size: 100px;
+        }
+    }
+
+    .japan_images {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 10px;
+
+        .japan_image {
+            height: 250px;
+            width: 300px;
+            position: relative;
+
+            img {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            &:nth-child(2) {
+                height: 200px;
+                width: 150px;
+            }
+        }
+    }
+}

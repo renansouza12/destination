@@ -2,6 +2,8 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { FranceComponent } from './sections/france/france.component';
 import { FrancePageComponent } from './pages/france-page/france-page.component';
+import { JapanComponent } from './sections/japan/japan.component';
+import { JapanPageComponent } from './pages/japan-page/japan-page.component';
 
 export const routes: Routes = [
     {   
@@ -11,5 +13,9 @@ export const routes: Routes = [
     {
         path:"france",
         component:FrancePageComponent
+    },
+    {
+        path:"japan",
+        component:JapanPageComponent
     }
 ];

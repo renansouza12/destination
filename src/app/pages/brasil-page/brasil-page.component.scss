@@ -1,0 +1,70 @@
+:host {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .brasil_content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 1rem;
+
+
+        h1{
+            font-size: 100px;
+        }
+        p{
+            width: 50%;
+            font-size: 14px;
+        }
+    }
+
+    .brasil_images {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .bra_images {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            .bra_image {
+                position: relative;
+                height: 190px;
+                width: 200px;
+
+
+                &:nth-child(2){
+                    transform: translateX(200px);
+                }
+                img {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .bra_video{
+          height: 370px;
+          width: 300px;
+
+            video {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+    }
+}

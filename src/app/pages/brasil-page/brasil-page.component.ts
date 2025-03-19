@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   selector: 'app-brasil-page',
   imports: [NgOptimizedImage],
   templateUrl: './brasil-page.component.html',
-  styleUrl: './brasil-page.component.scss'
+  styleUrls: ['./brasil-page.component.scss','./brasil-page.responsive.component.scss']
 })
 export class BrasilPageComponent {
 

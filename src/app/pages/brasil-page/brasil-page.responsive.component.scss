@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    :host {
+        overflow: hidden;
+        .brasil_content {
+            flex-direction: column;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0;
+
+            overflow: hidden;
+            color: var(--White);
+            h1 {
+                font-size: 80px;
+            }
+            p{
+                width: 70%;
+                text-align: justify;
+            }
+        }
+        .brasil_images{
+         
+            .bra_images{
+                display: none;
+                .bra_image{
+                    height: 180px;
+                    width: 150px;
+
+                    &:nth-child(2){
+                        transform: translateX(0px);
+                    }
+                }
+            }
+            .bra_video{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+}

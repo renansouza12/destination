@@ -29,23 +29,23 @@
             font-size: 70px;
         }
         .france_content{
-            transform: translateY(-60px);
+            transform: translateY(160px);
             gap: 10px;
-
+            height: 80%;
             video{
-                height: 200px;
+                height: 250px;
                 width: 150px;
             }
             .france_image{
-                height: 150px;
-                width: 100px;
+                height:250px;
+                width: 130px;
             }
         }
 
         p{
             width: 90%;
             right: 5%;
-            bottom: 0%;
+            bottom: 3%;
         }
     }
 }

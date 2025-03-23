@@ -5,7 +5,7 @@
         With rich culture, iconic landmarks, and delicious cuisine, France is a must-visit.</p>
 
         <div class="japan_video">
-            <video src="https://cdn.cosmos.so/abeed33b-1f27-4e29-8a98-6d3b5f83549e.mp4" autoplay muted loop ></video>
+            <video [src]="japanVideo" autoplay muted loop ></video>
         </div>
 </div>
 <div class="japan_title">
@@ -14,9 +14,9 @@
 </div>
 <div class="japan_images">
     <div class="japan_image">
-        <img ngSrc="https://cdn.cosmos.so/ddf83dbd-9862-4d44-9594-134249be8a16?format=jpeg" fill alt="japanese traditional home">
+        <img [ngSrc]="japanFirstImage" fill alt="japanese traditional home">
     </div>
     <div class="japan_image">
-        <img ngSrc="https://cdn.cosmos.so/5c2d75b5-7d27-4d17-93f2-e927bdee2d76?format=jpeg" fill alt="japanese garden">
+        <img [ngSrc]="japanSecondImage" fill alt="japanese garden">
     </div>
 </div>

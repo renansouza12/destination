@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls:[ './france-page.component.scss','./france-page.responsive.component.scss']
 })
 export class FrancePageComponent {
-
+    protected franceVideo:string = "videos/france-video.mp4";
+    protected franceImage:string = "images/france-images/castle.jpeg";
 }

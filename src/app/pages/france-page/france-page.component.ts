@@ -1,9 +1,10 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
+import { BackButtonComponent } from '../../components/back-button/back-button.component';
 
 @Component({
   selector: 'app-france-page',
-  imports: [NgOptimizedImage],
+  imports: [NgOptimizedImage,BackButtonComponent],
   templateUrl: './france-page.component.html',
   styleUrls:[ './france-page.component.scss','./france-page.responsive.component.scss']
 })

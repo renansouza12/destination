@@ -2,7 +2,7 @@
     height: 100dvh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; 
 
     .image_container,
     .brasil_text {
@@ -12,6 +12,14 @@
 
     .image_container {
         background: url("../../../../public/images/home-images/brasil-main-image.jpg") center/cover;
+        cursor: pointer;
+        transition:.5s ;
+       
+        filter: grayscale(70%);
+
+        &:hover{
+            filter: grayscale(0%);
+        }
     }
     .brasil_text{
         display: flex;

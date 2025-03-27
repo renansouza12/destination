@@ -11,6 +11,13 @@
     .image_container{
         background: url("../../../../public/images/home-images/french-main-image.jpg")center/cover;
         cursor: pointer;
+        transition: .5s;
+
+        filter: grayscale(70%);
+
+        &:hover{
+            filter: grayscale(0%);
+        }
     }
     .france_text{
         display: flex;

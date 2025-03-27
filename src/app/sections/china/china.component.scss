@@ -12,6 +12,13 @@
 
     .image_container {
         background: url("../../../../public/images/home-images/china-main-image.png")center/cover;
+        cursor: pointer;
+        transition: .5s;
+        filter: grayscale(70%);
+
+        &:hover{
+            filter: grayscale(0%);
+        }
     }
 
     .china_text {

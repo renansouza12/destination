@@ -1,17 +1,17 @@
-<div class="china_title">
+<div class="china_title" >
     <h3>中国</h3>
     <h1>( China )</h1>
 </div>
 
 <div class="china_content">
-    <div class="china_image">
+    <div class="china_image" [@fadeIn]=" {value:'visible',params: {timing:1000,translateX:'0px',translateY:'-50px' }}" >
         <img [ngSrc]="firstImage" fill alt="chinese garden">
     </div>
     <div class="china_image">
-        <img [ngSrc]="secondImage"  fill
+        <img [ngSrc]="secondImage"  [@fadeIn]=" {value:'visible',params: {timing:1000,translateX:'0px',translateY:'60px' }}"   fill
             alt="chinese traditional home">
     </div>
-    <div class="china_image">
+    <div class="china_image" [@fadeIn]=" {value:'visible',params: {timing:1000,translateX:'50px' }}">
         <img  [ngSrc]="thirdImage" fill
             alt="Chonqging bridge">
     </div>

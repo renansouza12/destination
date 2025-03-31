@@ -1,18 +1,21 @@
-<div class="japan_content" >
-    <p [@slideIn]="{params:{delay:1000}}">
+<div class="japan_content" [@slideIn]="{ params: { delay: 500, x: '0px', y: '100px' } }">
+    <p>
         France is a diverse destination with something for everyone. 
         Explore the bustling streets of Paris, relax on the beaches of the French Riviera, or discover the historic charm of its countryside. 
-        With rich culture, iconic landmarks, and delicious cuisine, France is a must-visit.</p>
+        With rich culture, iconic landmarks, and delicious cuisine, France is a must-visit.
+    </p>
 
-        <div class="japan_video" [@slideIn]="{params:{delay:500}}">
-            <video [src]="japanVideo" autoplay muted loop ></video>
-        </div>
+    <div class="japan_video">
+        <video [src]="japanVideoSrc" autoplay muted loop></video>
+    </div>
 </div>
-<div class="japan_title">
+
+<div class="japan_title" [@slideIn]="{ params: { delay: 1000, x: '0px', y: '-50px' } }">
     <h1>(Japan)</h1>
     <h3>日本</h3>
 </div>
-<div class="japan_images">
+
+<div class="japan_images" [@slideIn]="{ params: { delay: 1500, x: '50px', y: '0px' } }">
     <div class="japan_image">
         <img [ngSrc]="japanFirstImage" fill alt="japanese traditional home">
     </div>
@@ -20,4 +23,5 @@
         <img [ngSrc]="japanSecondImage" fill alt="japanese garden">
     </div>
 </div>
-<app-back-button/>
+
+<app-back-button></app-back-button>

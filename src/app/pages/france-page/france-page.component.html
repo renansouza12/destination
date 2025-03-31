@@ -2,9 +2,16 @@
 
 
 <div class="france_content">
-    <video [src]="franceVideo" autoplay muted loop preload="auto" poster="/images/france-images/france-video-frame.png"></video>
+    <video [src]="franceVideo"
+    [@appear]="{value:'visible'}" 
+    autoplay 
+    muted
+    loop
+    poster="/images/france-images/france-video-frame.png"
+                
+    ></video>
 
-    <div class="france_image">
+    <div class="france_image" [@appear]="{value:'visible'}">
         <img [ngSrc]="franceImage" fill alt="Castle">
 
     </div>

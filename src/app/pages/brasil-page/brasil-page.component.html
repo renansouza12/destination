@@ -5,15 +5,15 @@
 </div>
 <div class="brasil_images">
     <div class="bra_images">
-        <div class="bra_image">
+        <div class="bra_image" @premier >
             <img [ngSrc]="brasilImage1" fill alt="Ayrton Senna photo">
         </div>
-        <div class="bra_image">
+        <div class="bra_image" >
             <img [ngSrc]="brasilImage2" fill alt="ronaldo fenomeno photo">
         </div>
     </div>
     <div class="bra_video">
-        <video [src]="brasilVideoSrc"  autoplay muted loop></video>
+        <video  #brasilVideo [src]="brasilVideoSrc"  autoplay muted loop></video>
     </div>
 </div>
 <app-back-button/>

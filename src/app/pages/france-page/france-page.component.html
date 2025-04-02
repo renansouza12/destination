@@ -2,13 +2,14 @@
 
 
 <div class="france_content">
-    <video [src]="franceVideoSrc"
+    <video #franceVideo 
+    [src]="franceVideoSrc"
+    muted
     [@appear]="{value:'visible'}" 
     autoplay 
-    muted
     loop
     poster="/images/france-images/france-video-frame.png"
-    playinline
+
     ></video>
 
     <div class="france_image" [@appear]="{value:'visible'}">

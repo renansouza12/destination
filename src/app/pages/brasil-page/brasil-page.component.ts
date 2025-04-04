@@ -9,11 +9,27 @@ import { animate, keyframes, state, style, transition, trigger } from '@angular/
   templateUrl: './brasil-page.component.html',
   styleUrls: ['./brasil-page.component.scss', './brasil-page.responsive.component.scss'],
   animations: [
-   trigger("premier",[
-    transition(":enter",[
-      
-    ])
-   ])
+    trigger('imageAnim', [
+      transition(':enter', [
+        animate(
+          '1s ease-in-out',
+          keyframes([
+            style({ opacity: 0, transform: 'translateY({{y}})', offset: 0 }),
+            style({ opacity: 1, transform: 'translateY(0)', offset: 1 }),
+          ])
+        ),
+      ], { params: { y: '50px' } }),
+    ]),
+
+    trigger('videoAnim', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateY(50px)' }), 
+        animate(
+          '500ms ease-in-out',
+          style({ opacity: 1, transform: 'translateY(0px)' }) 
+        ),
+      ]),
+    ]),
   ]
 })
 export class BrasilPageComponent implements AfterViewInit {

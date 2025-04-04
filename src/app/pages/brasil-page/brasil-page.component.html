@@ -4,15 +4,15 @@
          Whether it’s the Amazon, the beaches, or the vibrant culture, Brazil promises unforgettable experiences.</p>
 </div>
 <div class="brasil_images">
-    <div class="bra_images">
-        <div class="bra_image" @premier >
+    <div class="bra_images"  [@imageAnim]="{ params: { y: '100px' } }">
+        <div class="bra_image" >
             <img [ngSrc]="brasilImage1" fill alt="Ayrton Senna photo">
         </div>
-        <div class="bra_image" >
+        <div class="bra_image">
             <img [ngSrc]="brasilImage2" fill alt="ronaldo fenomeno photo">
         </div>
     </div>
-    <div class="bra_video">
+    <div class="bra_video" @videoAnim>
         <video  #brasilVideo [src]="brasilVideoSrc"  autoplay muted loop></video>
     </div>
 </div>

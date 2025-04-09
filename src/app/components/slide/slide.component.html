@@ -1,0 +1,81 @@
+
+<div class="slide" [@slideAnimation]="slide()">
+@switch (slide()) {
+@case (1) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/0dcd407e-973f-4762-bdaf-01a514fad228?format=jpeg" fill alt="">
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+    @case (2) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/1204e58b-5f97-48ae-96cc-8789a37fb0df?format=jpeg" fill alt="">
+
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+    @case (3) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/ae8a7d92-67f3-4862-8d59-87dcd8ad3aa5?format=jpeg" fill alt="">
+
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+    @case (4) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/40c37d0d-781f-4d57-bdb9-ca5e017b6d68?format=jpeg" fill alt="">
+
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+    @case (5) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/27131608-0a3b-4801-9be5-9ebe58171168?format=jpeg" fill alt="">
+
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+    @case (6) {
+    <div class="slide_content">
+        <h1>City</h1>
+        <div class="slide_image">
+            <img ngSrc="https://cdn.cosmos.so/5c5e933c-a464-495d-9cb3-d79b049a8e54?format=jpeg" fill alt="">
+
+        </div>
+
+        <p>description</p>
+    </div>
+    }
+
+}
+</div>
+
+<div class="buttons">
+    <button (click)="previousSlide()"><-</button>
+    <button (click)="nextSlide()">-></button>
+</div>

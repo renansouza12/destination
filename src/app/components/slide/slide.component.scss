@@ -31,6 +31,10 @@
                     border-radius: 50%;
                 }
             }
+            p{
+                width: 30%;
+                text-align: justify;
+            }
         }
     }
     button {
@@ -44,7 +48,7 @@
 
         position: absolute;
         left: 50%;
-        transform: translateX(-50%);    
+        transform: translate(-50%,-90%);    
 
         overflow: hidden;
         transition: .8s .5s;

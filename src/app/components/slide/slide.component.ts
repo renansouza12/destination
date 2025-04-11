@@ -27,6 +27,14 @@ const timing = '1000ms ease-in-out';
   ]
 })
 export class SlideComponent {
+
+  protected londonImage:string = "slide-images/lodon.avif";
+  protected newYork:string = "slide-images/newyork.avif";
+  protected bangkok:string = "slide-images/bangkok.avif";
+  protected istanbul:string = "slide-images/istanbul.avif";
+  protected amsterdam:string = "slide-images/amsterdam.avif";
+  protected madrid:string = "slide-images/madrid.avif";
+
   protected slide = signal(1);
   protected totalSlides =6;
   protected direction = signal<'right' | 'left'>('right');
@@ -36,7 +44,7 @@ nextSlide() {
     this.slide.set(this.slide() + 1);
   } else {
     this.direction.set("right");
-    this.slide.set(1); // Loop back to the first slide
+    this.slide.set(1); 
   }
 }
 
@@ -46,7 +54,7 @@ previousSlide() {
     this.slide.set(this.slide() - 1);
   } else {
     this.direction.set("left");
-    this.slide.set(this.totalSlides); // Loop back to the last slide
+    this.slide.set(this.totalSlides);
   }
 }
 }

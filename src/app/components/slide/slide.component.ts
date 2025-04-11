@@ -8,7 +8,7 @@ const timing = '1000ms ease-in-out';
   selector: 'app-slide',
   imports: [NgOptimizedImage],
   templateUrl: './slide.component.html',
-  styleUrl: './slide.component.scss',
+  styleUrls:[ './slide.component.scss','slide.responsive.component.scss'],
   animations:[
     trigger('slideAnimation', [
       transition('* <=> *', [

@@ -1,0 +1,43 @@
+@media (max-width:720px) {
+    :host{
+        .slide{
+            .slide_content{
+            
+                p{
+                    width: 70%;
+                    margin-top: 0;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width:425px) {
+    :host{
+        .slide{
+            .slide_content{
+            
+                .slide_image{
+                    height: 250px;
+                    width: 75vw;
+
+                    img{
+                        border-radius: 0%;
+                    }
+                }
+
+                p{
+                    width: 100%;
+                }
+            }
+        }
+
+        button{
+            padding: 5px 10px;
+            font-size: 12px;
+            bottom: 0%;
+        }
+
+    }
+}
